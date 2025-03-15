@@ -113,6 +113,28 @@ blockquote {
   }
 }
 
+.blue-cta {
+  color: #fff;
+  background-color: #3882f6;
+  border-radius: 7px;
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: center;
+
+  button {
+    border: 2px solid #fff;
+  }
+
+  div {
+    flex: 2;
+  }
+
+  div:nth-child(2) {
+    text-align: center;
+    flex-grow: 1;
+  }
+}
+
 footer {
   background-color: #e5e7eb;
   text-align: center;
