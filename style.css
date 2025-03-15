@@ -113,6 +113,10 @@ blockquote {
   }
 }
 
+#cta .content {
+  padding: 5rem 1rem;
+}
+
 .blue-cta {
   color: #fff;
   background-color: #3882f6;
@@ -136,6 +140,9 @@ blockquote {
 }
 
 footer {
-  background-color: #e5e7eb;
+  color: #d0d0d0;
+  background-color: #1f2937;
   text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 14px;
 }
