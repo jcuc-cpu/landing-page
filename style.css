@@ -44,7 +44,7 @@ button {
 }
 
 .content {
-  max-width: 1200px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -85,7 +85,35 @@ header .content {
   }
 }
 
+.cards-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 3rem 1rem;
+
+  /* .content {
+    max-width: 700px;
+    padding: 3rem 1rem;
+  } */
+}
+
+blockquote {
+  color: #434953;
+  font-style: italic;
+  font-size: 36px;
+  margin-bottom: 1rem;
+  text-wrap: pretty;
+
+  + p {
+    font-weight: bold;
+    text-align: right;
+  }
+}
+
 footer {
-  background-color: lightgrey;
+  background-color: #e5e7eb;
   text-align: center;
 }
