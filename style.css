@@ -74,7 +74,8 @@ header .content {
 
 .hero .content {
   display: flex;
-  gap: 1rem;
+  gap: 5rem;
+  padding: 5rem 0rem;
 
   > div {
     flex: 1;
@@ -86,7 +87,7 @@ header .content {
 }
 
 #featured-cards .content {
-  padding: 3rem 1rem 5rem;
+  padding: 3rem 1rem 7.5rem;
 }
 
 #featured-cards h2 {
